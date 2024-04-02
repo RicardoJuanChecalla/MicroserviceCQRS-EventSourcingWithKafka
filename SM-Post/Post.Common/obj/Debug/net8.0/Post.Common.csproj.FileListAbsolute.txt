@@ -1,0 +1,15 @@
+D:\Microservices CQRS & Event Sourcing with Kafka\SM-Post\Post.Common\bin\Debug\net8.0\Post.Common.deps.json
+D:\Microservices CQRS & Event Sourcing with Kafka\SM-Post\Post.Common\bin\Debug\net8.0\Post.Common.dll
+D:\Microservices CQRS & Event Sourcing with Kafka\SM-Post\Post.Common\bin\Debug\net8.0\Post.Common.pdb
+D:\Microservices CQRS & Event Sourcing with Kafka\SM-Post\Post.Common\bin\Debug\net8.0\CQRS.Core.dll
+D:\Microservices CQRS & Event Sourcing with Kafka\SM-Post\Post.Common\bin\Debug\net8.0\CQRS.Core.pdb
+D:\Microservices CQRS & Event Sourcing with Kafka\SM-Post\Post.Common\obj\Debug\net8.0\Post.Common.csproj.AssemblyReference.cache
+D:\Microservices CQRS & Event Sourcing with Kafka\SM-Post\Post.Common\obj\Debug\net8.0\Post.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Microservices CQRS & Event Sourcing with Kafka\SM-Post\Post.Common\obj\Debug\net8.0\Post.Common.AssemblyInfoInputs.cache
+D:\Microservices CQRS & Event Sourcing with Kafka\SM-Post\Post.Common\obj\Debug\net8.0\Post.Common.AssemblyInfo.cs
+D:\Microservices CQRS & Event Sourcing with Kafka\SM-Post\Post.Common\obj\Debug\net8.0\Post.Common.csproj.CoreCompileInputs.cache
+D:\Microservices CQRS & Event Sourcing with Kafka\SM-Post\Post.Common\obj\Debug\net8.0\Post.Common.csproj.CopyComplete
+D:\Microservices CQRS & Event Sourcing with Kafka\SM-Post\Post.Common\obj\Debug\net8.0\Post.Common.dll
+D:\Microservices CQRS & Event Sourcing with Kafka\SM-Post\Post.Common\obj\Debug\net8.0\refint\Post.Common.dll
+D:\Microservices CQRS & Event Sourcing with Kafka\SM-Post\Post.Common\obj\Debug\net8.0\Post.Common.pdb
+D:\Microservices CQRS & Event Sourcing with Kafka\SM-Post\Post.Common\obj\Debug\net8.0\ref\Post.Common.dll

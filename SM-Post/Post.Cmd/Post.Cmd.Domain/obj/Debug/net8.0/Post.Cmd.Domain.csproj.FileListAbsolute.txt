@@ -1,0 +1,17 @@
+D:\Microservices CQRS & Event Sourcing with Kafka\SM-Post\Post.Cmd\Post.Cmd.Domain\bin\Debug\net8.0\Post.Cmd.Domain.deps.json
+D:\Microservices CQRS & Event Sourcing with Kafka\SM-Post\Post.Cmd\Post.Cmd.Domain\bin\Debug\net8.0\Post.Cmd.Domain.dll
+D:\Microservices CQRS & Event Sourcing with Kafka\SM-Post\Post.Cmd\Post.Cmd.Domain\bin\Debug\net8.0\Post.Cmd.Domain.pdb
+D:\Microservices CQRS & Event Sourcing with Kafka\SM-Post\Post.Cmd\Post.Cmd.Domain\bin\Debug\net8.0\CQRS.Core.dll
+D:\Microservices CQRS & Event Sourcing with Kafka\SM-Post\Post.Cmd\Post.Cmd.Domain\bin\Debug\net8.0\Post.Common.dll
+D:\Microservices CQRS & Event Sourcing with Kafka\SM-Post\Post.Cmd\Post.Cmd.Domain\bin\Debug\net8.0\CQRS.Core.pdb
+D:\Microservices CQRS & Event Sourcing with Kafka\SM-Post\Post.Cmd\Post.Cmd.Domain\bin\Debug\net8.0\Post.Common.pdb
+D:\Microservices CQRS & Event Sourcing with Kafka\SM-Post\Post.Cmd\Post.Cmd.Domain\obj\Debug\net8.0\Post.Cmd.Domain.csproj.AssemblyReference.cache
+D:\Microservices CQRS & Event Sourcing with Kafka\SM-Post\Post.Cmd\Post.Cmd.Domain\obj\Debug\net8.0\Post.Cmd.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Microservices CQRS & Event Sourcing with Kafka\SM-Post\Post.Cmd\Post.Cmd.Domain\obj\Debug\net8.0\Post.Cmd.Domain.AssemblyInfoInputs.cache
+D:\Microservices CQRS & Event Sourcing with Kafka\SM-Post\Post.Cmd\Post.Cmd.Domain\obj\Debug\net8.0\Post.Cmd.Domain.AssemblyInfo.cs
+D:\Microservices CQRS & Event Sourcing with Kafka\SM-Post\Post.Cmd\Post.Cmd.Domain\obj\Debug\net8.0\Post.Cmd.Domain.csproj.CoreCompileInputs.cache
+D:\Microservices CQRS & Event Sourcing with Kafka\SM-Post\Post.Cmd\Post.Cmd.Domain\obj\Debug\net8.0\Post.Cmd.Domain.csproj.CopyComplete
+D:\Microservices CQRS & Event Sourcing with Kafka\SM-Post\Post.Cmd\Post.Cmd.Domain\obj\Debug\net8.0\Post.Cmd.Domain.dll
+D:\Microservices CQRS & Event Sourcing with Kafka\SM-Post\Post.Cmd\Post.Cmd.Domain\obj\Debug\net8.0\refint\Post.Cmd.Domain.dll
+D:\Microservices CQRS & Event Sourcing with Kafka\SM-Post\Post.Cmd\Post.Cmd.Domain\obj\Debug\net8.0\Post.Cmd.Domain.pdb
+D:\Microservices CQRS & Event Sourcing with Kafka\SM-Post\Post.Cmd\Post.Cmd.Domain\obj\Debug\net8.0\ref\Post.Cmd.Domain.dll

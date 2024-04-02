@@ -1,0 +1,48 @@
+mkdir "Microservices CQRS & Event Sourcing with Kafka"
+cd "Microservices CQRS & Event Sourcing with Kafka"
+dotnet new sln
+dotnet new classlib -o CQRS-ES/CQRS.Core --framework "net8.0"
+dotnet new webapi -o SM-Post/Post.Cmd/Post.Cmd.Api --framework "net8.0"
+dotnet new classlib -o SM-Post/Post.Cmd/Post.Cmd.Domain --framework "net8.0"
+dotnet new classlib -o SM-Post/Post.Cmd/Post.Cmd.Infrastructure --framework "net8.0"
+dotnet new webapi -o SM-Post/Post.Query/Post.Query.Api --framework "net8.0"
+dotnet new classlib -o SM-Post/Post.Query/Post.Query.Domain --framework "net8.0"
+dotnet new classlib -o SM-Post/Post.Query/Post.Query.Infrastructure --framework "net8.0"
+dotnet new classlib -o SM-Post/Post.Common --framework "net8.0"
+dotnet sln add SM-Post/Post.Cmd/Post.Cmd.Api
+dotnet sln add SM-Post/Post.Cmd/Post.Cmd.Domain
+dotnet sln add SM-Post/Post.Cmd/Post.Cmd.Infrastructure
+dotnet sln add SM-Post/Post.Query/Post.Query.Api
+dotnet sln add SM-Post/Post.Query/Post.Query.Domain
+dotnet sln add SM-Post/Post.Query/Post.Query.Infrastructure
+dotnet sln add SM-Post/Post.Common
+dotnet sln add CQRS-ES/CQRS.Core
+
+dotnet add SM-Post/Post.Cmd/Post.Cmd.Api/Post.Cmd.Api.csproj reference CQRS-ES/CQRS.Core/CQRS.Core.csproj
+dotnet add SM-Post/Post.Cmd/Post.Cmd.Api/Post.Cmd.Api.csproj reference SM-Post/Post.Cmd/Post.Cmd.Domain/Post.Cmd.Domain.csproj
+dotnet add SM-Post/Post.Cmd/Post.Cmd.Api/Post.Cmd.Api.csproj reference SM-Post/Post.Cmd/Post.Cmd.Infrastructure/Post.Cmd.Infrastructure.csproj
+dotnet add SM-Post/Post.Cmd/Post.Cmd.Domain/Post.Cmd.Domain.csproj reference CQRS-ES/CQRS.Core/CQRS.Core.csproj
+dotnet add SM-Post/Post.Cmd/Post.Cmd.Domain/Post.Cmd.Domain.csproj reference SM-Post/Post.Common/Post.Common.csproj
+dotnet add SM-Post/Post.Cmd/Post.Cmd.Infrastructure/Post.Cmd.Infrastructure.csproj reference CQRS-ES/CQRS.Core/CQRS.Core.csproj
+dotnet add SM-Post/Post.Cmd/Post.Cmd.Infrastructure/Post.Cmd.Infrastructure.csproj reference SM-Post/Post.Cmd/Post.Cmd.Domain/Post.Cmd.Domain.csproj
+dotnet add SM-Post/Post.Common/Post.Common.csproj reference CQRS-ES/CQRS.Core/CQRS.Core.csproj
+dotnet add SM-Post/Post.Query/Post.Query.Api/Post.Query.Api.csproj reference CQRS-ES/CQRS.Core/CQRS.Core.csproj
+dotnet add SM-Post/Post.Query/Post.Query.Api/Post.Query.Api.csproj reference SM-Post/Post.Query/Post.Query.Domain/Post.Query.Domain.csproj
+dotnet add SM-Post/Post.Query/Post.Query.Api/Post.Query.Api.csproj reference SM-Post/Post.Query/Post.Query.Infrastructure/Post.Query.Infrastructure.csproj
+dotnet add SM-Post/Post.Query/Post.Query.Domain/Post.Query.Domain.csproj reference CQRS-ES/CQRS.Core/CQRS.Core.csproj
+dotnet add SM-Post/Post.Query/Post.Query.Domain/Post.Query.Domain.csproj reference SM-Post/Post.Common/Post.Common.csproj
+dotnet add SM-Post/Post.Query/Post.Query.Infrastructure/Post.Query.Infrastructure.csproj reference CQRS-ES/CQRS.Core/CQRS.Core.csproj
+dotnet add SM-Post/Post.Query/Post.Query.Infrastructure/Post.Query.Infrastructure.csproj reference SM-Post/Post.Query/Post.Query.Domain/Post.Query.Domain.csproj
+dotnet add ./CQRS-ES/CQRS.Core/CQRS.Core.csproj package MongoDB.Driver --version 2.24.0
+dotnet add ./SM-Post/Post.Cmd/Post.Cmd.Infrastructure/Post.Cmd.Infrastructure.csproj package Confluent.Kafka --version 2.3.0
+dotnet add ./SM-Post/Post.Cmd/Post.Cmd.Infrastructure/Post.Cmd.Infrastructure.csproj package Microsoft.Extensions.Options --version 8.0.2
+dotnet add ./SM-Post/Post.Cmd/Post.Cmd.Infrastructure/Post.Cmd.Infrastructure.csproj package MongoDB.Driver --version 2.24.0
+
+dotnet add ./SM-Post/Post.Query/Post.Query.Infrastructure/Post.Query.Infrastructure.csproj package Microsoft.EntityFrameworkCore --version 8.0.2
+dotnet add ./SM-Post/Post.Query/Post.Query.Infrastructure/Post.Query.Infrastructure.csproj package Microsoft.EntityFrameworkCore.SqlServer --version 8.0.2
+dotnet add ./SM-Post/Post.Query/Post.Query.Infrastructure/Post.Query.Infrastructure.csproj package Npgsql.EntityFrameworkCore.PostgreSQL --version 8.0.2
+dotnet add ./SM-Post/Post.Query/Post.Query.Infrastructure/Post.Query.Infrastructure.csproj package Microsoft.EntityFrameworkCore.Design --version 8.0.2
+dotnet add ./SM-Post/Post.Query/Post.Query.Infrastructure/Post.Query.Infrastructure.csproj package Microsoft.EntityFrameworkCore.Proxies --version 8.0.2
+dotnet add ./SM-Post/Post.Query/Post.Query.Infrastructure/Post.Query.Infrastructure.csproj package Microsoft.Extensions.Hosting --version 8.0.0
+dotnet add ./SM-Post/Post.Query/Post.Query.Infrastructure/Post.Query.Infrastructure.csproj package Confluent.Kafka --version 2.3.0
+
